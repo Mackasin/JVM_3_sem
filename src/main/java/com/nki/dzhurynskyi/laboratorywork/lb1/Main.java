@@ -12,11 +12,11 @@ public class Main {
     }
 
     private double calculateS(double x) {
-            return 1 - x + (pow(x, 2) / 2) - (pow(x, 3) / 6) + (pow(x, 4) / 24);
+            return 1 - x + ((x*x)) / 2 - ((x*x*x) / 6) + ((x*x*x*x) / 24);
     }
 
     private double calculateF(double x, double y) {
-            return x * (sin(pow(x, 3)) + pow(cos(y), 2));
+            return x * (sin((x*x*x)) + (cos(y)* cos(y)));
         }
 
 
