@@ -18,10 +18,10 @@ class MainTest {
     @Test
     void xValuesArrayCreateTest() {
 
-        double[] xValues = null;
+        double[] xValues;
         double x1 =1;
         int x2 = 2;
-        double step = 0.1;;
+        double step = 0.1;
 
         xValues = main.xValuesArrayCreate(x1, x2, step);
 
@@ -192,9 +192,5 @@ class MainTest {
         int result = main.calculateSteps(x1, x2, step);
 
         assertEquals(6, result);
-    }
-
-
-    public static class TestLB2 {
     }
 }
