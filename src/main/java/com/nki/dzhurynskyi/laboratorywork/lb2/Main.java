@@ -13,10 +13,10 @@ public class Main {
         if (x > a + eps) {
             return x * sqrt(x - a);
         }
-        if (x == a) {
-            return x * sin(a * x);
-        } else {
+        if (x <a+eps) {
             return exp(-a * x) * cos(a * x);
+        } else {
+            return x * sin(a * x);
         }
     }
 
