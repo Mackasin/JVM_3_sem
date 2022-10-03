@@ -58,7 +58,7 @@ class MainTest {
 
         double element140 = yValues[140];
 
-        assertEquals(-1.19914, element140, 0.00001);
+        assertEquals(0.002729, element140, 0.00001);
 
     }
 
